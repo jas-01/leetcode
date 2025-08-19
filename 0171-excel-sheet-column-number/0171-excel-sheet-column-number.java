@@ -4,9 +4,11 @@ class Solution {
         for (int i = 0; i < col.length(); i++) {
             char c = col.charAt(i);
             int value = c - 'A' + 1;  
-            result = result * 26 + value;}
+            result = result * 26 + value;
+            }
         return result;
-    }}
+    }
+    }
 /* 
 result = 0
 'Z' → 26 → result = 0*26 + 26 = 26
