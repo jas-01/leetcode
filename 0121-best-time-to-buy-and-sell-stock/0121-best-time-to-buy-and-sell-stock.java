@@ -4,7 +4,7 @@ class Solution {
         int minval=Integer.MAX_VALUE;
         for(int p:pr){
             if(minval>p) minval=p;
-            else  max=Math.max(max,p-minval);
+            max=Math.max(max,p-minval);
 }
         return max;
 }}
